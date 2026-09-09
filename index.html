@@ -4,41 +4,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentényi Attila Ferenc | Portfólió</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=Trebuchet+MS:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-    <title>Valentenyi Attila Ferenc - Portfolio</title>
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Főoldal</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Önéletrajz</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Projektjeim</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
-                </div>
-            </div>
-        </nav>
+    <header class="topbar">
+        <div class="container nav-wrap">
+            <nav class="main-nav">
+                <a href="index.html" class="active">Főoldal</a>
+                <a href="rolam.html">Rólam</a>
+                <a href="projektjeim.html">Projektjeim</a>
+                <a href="szinek.html">Hobbi</a>
+                <a href="kapcsolat.html">Kapcsolat</a>
+            </nav>
+        </div>
     </header>
 
+    <main class="container">
+        <section class="hero">
+            <div class="hero-text">
+                <h1>Valentényi Attila Ferenc</h1>
+                <p class="subtitle">11. évfolyamos tanuló, aki szereti a webfejlesztést és a digitális dolgokat.</p>
+                <div class="hero-buttons">
+                    <a class="btn btn-primary" href="#projektjeim">Nézd meg a munkáimat</a>
+                    <a class="btn btn-secondary" href="rolam.html">Bővebben rólam</a>
+                </div>
+            </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+            <div class="profile-box">
+                <div class="profile-image-slot">
+                    <span>Ide kerül a kép</span>
+                </div>
+                <div class="profile-info">
+                    <h3>Születési adatok:</h3>
+                    <ul>
+                        <li>Születési dátum: [ide írd be]</li>
+                        <li>Születési hely: [ide írd be]</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="rolam" class="panel">
+            <h2>Rólam</h2>
+            <p>
+                Szeretek tanulni, kipróbálni új dolgokat és kreatívan dolgozni. A weboldalak készítése nagyon érdekel,
+                mert lehet rajtuk látni, hogy milyen sok munkával és ötlettel lehet valamit összehozni.
+            </p>
+            <p>
+                A legjobban a szép, egyszerű, de látványos oldalakért rajongok. Imádok kicsit megcsinálni mindent a saját
+                stílusomban, és próbálom mindig jobbá tenni a munkámat.
+            </p>
+        </section>
+
+        <section id="projektjeim" class="panel">
+            <h2>Projektjeim</h2>
+            <div class="project-grid">
+                <article class="project-card">
+                    <div class="project-color yellow"></div>
+                    <h3>Iskolai honlap</h3>
+                    <p>Egy egyszerű, színes weboldal, ahol bemutattam az iskolai érdeklődési területeimet.</p>
+                    <span class="tag">HTML + CSS</span>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-color blue"></div>
+                    <h3>Portfólió oldal</h3>
+                    <p>Ez a saját portfólióm, amit magam készítettem, hogy mutassam a munkáimat és ötleteimet.</p>
+                    <span class="tag">Portfolio</span>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-color pink"></div>
+                    <h3>Mini játék</h3>
+                    <p>Egy kis játék vagy feladat, amiben próbáltam meg a kódolás és a dizájn összekapcsolását.</p>
+                    <span class="tag">Programozás</span>
+                </article>
+            </div>
+        </section>
+
+        <section id="keskes" class="panel">
+            <h2>Készségeim</h2>
+            <div class="skill-grid">
+                <div class="skill-box green">HTML</div>
+                <div class="skill-box orange">CSS</div>
+                <div class="skill-box purple">Figma</div>
+                <div class="skill-box red">Canva</div>
+                <div class="skill-box blue">Google Docs</div>
+                <div class="skill-box yellow">Kreativitás</div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>
+            © 2026 Valentényi Attila Ferenc |
+            <a class="social-link" href="#">GitHub</a> |
+            <a class="social-link" href="#">Instagram</a>
+        </p>
+    </footer>
 </body>
 
 </html>

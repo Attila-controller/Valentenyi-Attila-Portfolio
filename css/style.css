@@ -316,9 +316,19 @@ footer {
 
 .blue-ish-card { background: #7bb5ff; }
 .blue-card { background: #95cbff; }
+<<<<<<< HEAD
 .whiter-card { background: #b9d7ff; }
 .light-blue-ish-card { background: #a4d7ff; }
 .white-ish-card { background: #b7ddff; }
+=======
+.purple-card { background: #b9d7ff; }
+.green-card { background: #a4d7ff; }
+.pink-card { background: #b7ddff; }
+.pink-card h2,
+.pink-card .check-list {
+    color: #123a5a;
+}
+>>>>>>> 72fede7403a4b4e82f13e0876542b772c0927e4e
 
 .content-grid {
     display: grid;

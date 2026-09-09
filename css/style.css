@@ -319,6 +319,10 @@ footer {
 .purple-card { background: #b9d7ff; }
 .green-card { background: #a4d7ff; }
 .pink-card { background: #b7ddff; }
+.pink-card h2,
+.pink-card .check-list {
+    color: #123a5a;
+}
 
 .content-grid {
     display: grid;
